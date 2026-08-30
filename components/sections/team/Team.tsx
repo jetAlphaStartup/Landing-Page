@@ -27,7 +27,7 @@ const Team = (props: Props) => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full h-auto block rounded-4xl"
+                className="w-24 h-24 object-cover rounded-4xl"
                 priority
               />
             </div>
@@ -44,7 +44,7 @@ const Team = (props: Props) => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full h-auto block rounded-4xl"
+                className="w-24 h-24 object-cover rounded-4xl"
                 priority
               />
             </div>

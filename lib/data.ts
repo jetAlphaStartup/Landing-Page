@@ -1,9 +1,13 @@
 export const partnerBrands = [
-  "/brands/dailymotion.svg",
-  "/brands/eskimi.svg",
-  "/brands/indeed.svg",
-  "/brands/uber.svg",
-  "/brands/zendesk.svg",
+  "/brands/optilens_logo.svg",
+  "/brands/halfware_logo.svg",
+  "/brands/novalis_ai_logo.svg",
 ];
 
-export const teamMembers = Array(10).fill("/team/1.png");
+export const teamMembers = [
+  "/team/farid.jpg",
+  "/team/rayan.jpg",
+  "/team/akram.jpg",
+  "/team/abdo.jpg",
+  "/team/djalil.jpg",
+];

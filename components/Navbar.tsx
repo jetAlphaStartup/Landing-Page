@@ -32,27 +32,27 @@ import { cn } from "@/lib/utils";
 
 const productsMenu = [
   {
-    name: "lemlist",
+    name: "J-Optic",
     image: "/products (1).svg",
     description: "The only cold outreach tool that helps you reach inboxes",
   },
   {
-    name: "lemwarm",
+    name: "J-Store",
     image: "/products (2).svg",
     description: "Keep your emails away from spam",
   },
   {
-    name: "lemcal",
+    name: "J-Optic-Pro",
     image: "/products (3).svg",
     description: "Book meetings in the easiest way ever",
   },
   {
-    name: "Taplio",
+    name: "J-Mall",
     image: "/products (4).svg",
     description: "Build your Personal brand on LinkedIn",
   },
   {
-    name: "Tweet Hunter",
+    name: "Jet-Next",
     image: "/products (5).svg",
     description: "Build your Personal brand on Twitter",
   },

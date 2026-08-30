@@ -8,7 +8,6 @@ import {
   useTransform,
   SpringOptions,
 } from "motion/react";
-import { Crown } from "lucide-react";
 import { CursorGroup } from "@/components/CursorGroup";
 
 type Props = {};
@@ -21,8 +20,6 @@ const TeamDescription = (props: Props) => {
   const springX = useSpring(x, springOptions);
   const springY = useSpring(y, springOptions);
 
-  const moveTextX = useTransform(springX, (val) => val / 40);
-  const moveTextY = useTransform(springY, (val) => val / 40);
 
   const moveImg1X = useTransform(springX, (val) => val / 25);
   const moveImg1Y = useTransform(springY, (val) => val / 25);
@@ -36,7 +33,6 @@ const TeamDescription = (props: Props) => {
   const moveImg4X = useTransform(springX, (val) => val / -25);
   const moveImg4Y = useTransform(springY, (val) => val / -25);
 
-  const rotateText = useTransform(springX, (val) => val / 200);
   const rotateImg1 = useTransform(springX, (val) => val / 100);
   const rotateImg2 = useTransform(springX, (val) => val / -100);
   const rotateImg3 = useTransform(springX, (val) => val / 100);
@@ -63,33 +59,8 @@ const TeamDescription = (props: Props) => {
         }}
         className="inset-0 w-full p-4 sm:p-6 min-h-[50vh] relative font-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight text-white flex flex-col items-center justify-center text-center"
       >
-        <div>
-          Discover{" "}
-          <motion.span
-            style={{ x: moveTextX, y: moveTextY, rotate: rotateText }}
-            className="mx-4 mt-4 py-1 px-1.5 bg-white text-black rounded-lg inline-block lowercase leading-[1.1] shadow-lg cursor-default"
-          >
-            <span className="flex relative top-0.5">
-              <div className="mr-2 bg-black rounded-md flex items-center justify-center w-12 h-12">
-                <Crown className="text-white" />{" "}
-              </div>
-              jethings
-            </span>
-          </motion.span>{" "}
-          a suite of SaaS
-        </div>
-        <div className="mt-4">
-          products made by{" "}
-          <span className="bg-clip-text text-transparent bg-[linear-gradient(to_right,#FEFF92,#B4FF6C)]">
-            90 passionate
-          </span>
-        </div>
-
-        <div className="mt-4">
-          <span className="bg-clip-text text-transparent bg-[linear-gradient(to_right,#FEFF92,#B4FF6C)]">
-            people{" "}
-          </span>
-          for .......... sales team
+        <div className="max-w-3xl">
+          Jethings, a rich software toolkit built by professionals to empower growing businesses.
         </div>
       </div>
 

@@ -32,7 +32,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base md:text-lg lg:text-xl"
                 >
-                  lemlist
+                  J-Optic
                 </a>
               </li>
               <li>
@@ -40,7 +40,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base md:text-lg lg:text-xl"
                 >
-                  lemwarm
+                  J-Store
                 </a>
               </li>
               <li>
@@ -48,7 +48,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base md:text-lg lg:text-xl"
                 >
-                  lemcal
+                  J-Optic-Pro
                 </a>
               </li>
               <li>
@@ -56,7 +56,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base md:text-lg lg:text-xl"
                 >
-                  Taplio
+                  J-Mall
                 </a>
               </li>
               <li>
@@ -64,7 +64,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base md:text-lg lg:text-xl"
                 >
-                  Tweet Hunter
+                  Jet-Next
                 </a>
               </li>
             </ul>

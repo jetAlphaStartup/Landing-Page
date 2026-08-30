@@ -12,7 +12,7 @@ type ProjectsProps = {};
 
 const Projects: React.FC<ProjectsProps> = () => {
   return (
-    <div className="space-y-24 md:space-y-36 lg:space-y-48">
+    <div className="pt-24 md:pt-36 lg:pt-65 space-y-24 md:space-y-36 lg:space-y-48">
       {projects.map((project, index) => (
         <div className="relative overflow-x-clip">
           <div className="space-y-4 md:space-y-8 z-10" key={project.id}>
