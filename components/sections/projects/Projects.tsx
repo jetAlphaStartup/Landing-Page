@@ -10,6 +10,7 @@ import BackgroundEffect from "@/components/BackgroundEffect";
 
 type ProjectsProps = {};
 
+
 const Projects: React.FC<ProjectsProps> = () => {
   return (
     <div className="pt-24 md:pt-36 lg:pt-65 space-y-24 md:space-y-36 lg:space-y-48">
